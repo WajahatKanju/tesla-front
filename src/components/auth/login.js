@@ -55,6 +55,9 @@ export default class Login extends Component {
         email,
         password,
       },
+       headers: {
+        'Access-Control-Allow-Origin': true,
+      }
     },
 
     // for handling sesssion.

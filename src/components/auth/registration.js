@@ -50,7 +50,9 @@ export default class Registration extends Component {
         email,
         password,
         password_confirmation,
-      },
+      }, headers: {
+        'Access-Control-Allow-Origin': true,
+      }
     },
 
     // send the session data also.
